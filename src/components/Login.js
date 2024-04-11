@@ -32,21 +32,21 @@ const Login = () => {
             ref={name}
             onChange={() => setErrorMessage(null)}
             type="text"
-            className="border border-gray-400 block py-4  mb-2  pl-3 text-lg"
+            className="border border-gray-400 opacity-60 block py-4  mb-2  pl-3 text-lg"
             placeholder="Name"
           />
           <input
             ref={email}
             onChange={() => setErrorMessage(null)}
             type="text"
-            className="border border-gray-400  mb-5  block py-4  pl-3 text-lg"
+            className="border border-gray-400  opacity-60 mb-5  block py-4  pl-3 text-lg"
             placeholder="Email or Phone Number"
           />
           <input
             ref={password}
             onChange={() => setErrorMessage(null)}
             type="password"
-            className="border border-gray-400 block py-4  mb-2  pl-3 text-lg"
+            className="border border-gray-400  opacity-60 block py-4  mb-2  pl-3 text-lg"
             placeholder="password"
           />
           {errorMessage && (
